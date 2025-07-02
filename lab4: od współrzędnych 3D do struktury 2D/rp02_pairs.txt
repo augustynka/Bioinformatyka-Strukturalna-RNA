@@ -1,0 +1,4 @@
+A:A5 - B:U10  cs=0.936 dist=0.263
+A:G6 - B:C9  cs=0.968 dist=0.176
+A:G7 - B:C8  cs=0.941 dist=1.112
+A:C13 - B:G7  cs=0.975 dist=0.613

@@ -1,0 +1,9 @@
+A:C1 - A:G24  cs=1.000 dist=0.028
+A:G3 - A:C22  cs=0.999 dist=0.127
+A:G4 - A:C21  cs=0.998 dist=0.387
+A:C13 - A:G40  cs=0.987 dist=0.386
+A:G14 - A:C39  cs=0.994 dist=0.116
+A:C16 - A:G37  cs=1.000 dist=0.003
+A:G17 - A:C36  cs=0.995 dist=0.413
+A:U18 - A:A35  cs=0.983 dist=0.613
+A:C20 - A:G29  cs=0.975 dist=1.091

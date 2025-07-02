@@ -1,0 +1,10 @@
+A:C1 - A:G59  cs=0.965 dist=0.540
+A:U4 - A:A56  cs=0.997 dist=0.452
+A:G6 - A:U21  cs=0.990 dist=0.358
+A:C7 - A:G20  cs=0.974 dist=0.597
+A:A10 - A:U17  cs=0.991 dist=0.306
+A:G11 - A:C16  cs=0.998 dist=0.403
+A:A29 - A:U50  cs=0.931 dist=0.652
+A:G31 - A:C48  cs=0.829 dist=1.074
+A:U32 - A:G47  cs=0.979 dist=0.154
+A:C33 - A:G46  cs=0.994 dist=0.012

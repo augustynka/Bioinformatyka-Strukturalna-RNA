@@ -1,0 +1,16 @@
+A:G1 - B:C22  cs=0.988 dist=0.312
+A:C2 - B:G21  cs=0.983 dist=0.251
+A:A3 - B:U20  cs=0.985 dist=0.071
+A:G4 - B:C19  cs=0.960 dist=0.086
+A:G5 - B:C18  cs=0.877 dist=1.054
+A:A9 - B:U13  cs=1.000 dist=0.036
+A:G10 - B:C12  cs=1.000 dist=0.275
+A:G11 - B:C10  cs=0.913 dist=0.852
+A:C12 - B:G9  cs=0.901 dist=1.270
+A:C13 - B:G8  cs=0.952 dist=1.019
+A:C35 - B:G6  cs=0.941 dist=1.551
+A:G36 - B:C5  cs=0.987 dist=0.067
+A:C37 - B:G4  cs=0.972 dist=0.501
+A:C38 - B:G3  cs=0.987 dist=0.157
+A:C39 - B:G2  cs=0.974 dist=0.119
+A:C40 - B:G1  cs=0.989 dist=0.408

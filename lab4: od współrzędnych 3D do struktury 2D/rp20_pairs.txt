@@ -1,0 +1,11 @@
+A:A1 - B:U50  cs=0.992 dist=0.245
+A:C4 - B:G47  cs=0.992 dist=0.042
+A:A8 - B:U43  cs=0.990 dist=0.321
+A:G9 - B:C42  cs=0.987 dist=0.373
+A:C11 - B:G39  cs=0.952 dist=1.002
+A:C12 - B:G38  cs=0.987 dist=0.419
+A:G13 - B:C6  cs=0.976 dist=0.168
+A:C15 - B:G4  cs=0.896 dist=0.614
+A:G16 - B:C3  cs=0.991 dist=0.445
+A:G17 - B:C2  cs=0.942 dist=0.215
+A:C18 - B:G1  cs=0.974 dist=0.387

@@ -1,0 +1,17 @@
+A:C1 - A:G59  cs=0.987 dist=0.174
+A:G2 - A:C58  cs=0.965 dist=0.758
+A:U3 - A:A57  cs=0.963 dist=0.608
+A:U4 - A:A56  cs=0.963 dist=0.098
+A:G5 - A:C55  cs=0.992 dist=0.133
+A:C7 - A:G20  cs=0.932 dist=0.747
+A:C8 - A:G19  cs=0.989 dist=0.313
+A:C9 - A:G18  cs=0.980 dist=0.180
+A:A10 - A:U17  cs=0.991 dist=0.191
+A:G11 - A:C16  cs=0.987 dist=0.695
+A:G23 - A:C60  cs=0.995 dist=0.196
+A:A29 - A:U50  cs=0.978 dist=0.073
+A:G30 - A:C49  cs=0.983 dist=0.437
+A:G31 - A:C48  cs=0.998 dist=0.238
+A:U32 - A:G47  cs=0.993 dist=0.385
+A:C33 - A:G46  cs=0.986 dist=0.074
+A:C34 - A:G45  cs=0.997 dist=0.234
