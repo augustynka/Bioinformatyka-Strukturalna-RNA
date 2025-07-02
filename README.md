@@ -6,9 +6,6 @@ This collection of Jupyter notebooks provides end-to-end pipelines for parsing, 
 
 ## Notebook 1: Dot-Bracket ↔ BPSEQ Conversion & Structural Element Extraction  
 Transform secondary-structure strings between dot-bracket and BPSEQ formats, with built-in detection of key motifs.  
-- **Data I/O & manual inspection**  
-  - Scan a folder of dot-bracket files, visually verify sequence–structure correspondence and flag any misformatted entries by hand.  
-  - After conversion, spot-check a handful of BPSEQ outputs to ensure pairing conventions were preserved.  
 - **Bidirectional conversion pipeline**  
   - Convert dot-bracket to BPSEQ by mapping each bracket pair to index–base lines.  
   - Reconstruct dot-bracket from BPSEQ via a nesting-aware bracket-assignment routine, resolving conflicts with a first-come-first-served strategy.  
@@ -22,12 +19,11 @@ Transform secondary-structure strings between dot-bracket and BPSEQ formats, wit
 ## Notebook 2: Dot-Bracket Pair Extraction & Structure Comparison Metrics  
 Extract base-pair lists from dot-bracket notation and quantify structural similarity.  
 - **Pair parsing & conflict resolution**  
-  - Read dot-bracket strings line by line, build zero-based pairing lists, and manually inspect any ambiguous or overlapping assignments.  
+  - Read dot-bracket strings line by line, build zero-based pairing lists.  
 - **Similarity metric computation**  
   - Compute Interaction Network Fidelity between two pairing sets and calculate edit distances on the dot-bracket strings.  
-  - Hand-verify a few example pairs to confirm the INF denominator and distance algorithm behave as expected.  
 - **Demonstration on example structures**  
-  - Run the metrics on reference vs. predicted structures, print tabulated INF scores and Levenshtein distances, and highlight cases where manual realignment was needed.
+  - Run the metrics on reference vs. predicted structures, print tabulated INF scores and Levenshtein distances.
 
 ---
 
@@ -36,7 +32,7 @@ Scan sequence-structure files for common tetraloops and T-loops using pattern ma
 - **Pattern setup & tuning**  
   - Define motif descriptors (e.g. GNRA, UNCG, T-loop) via IUPAC‐style patterns, tweak regex heuristics by hand to avoid false positives.  
 - **Data loading & JSON I/O**  
-  - Read combined sequence + structure inputs, output motif→match positions in JSON, and manually inspect a subset of matches to refine patterns.  
+  - Read combined sequence + structure inputs, output motif→match positions in JSON.  
 - **Loop-region scanning logic**  
   - Restrict searches to predicted loop segments, then apply each pattern sequentially and record start/end indices.  
 - **Results aggregation**  
@@ -47,7 +43,7 @@ Scan sequence-structure files for common tetraloops and T-loops using pattern ma
 ## Notebook 4: PDB-Based G–C Base-Pair Detection  
 Use Biopython to parse PDB files and find G–C pairs by geometric criteria.  
 - **Structure parsing & distance thresholding**  
-  - Load PDBs, iterate nucleotide residues, compute N1(G)–N3(C) distances, and manually adjust the cutoff to capture canonical pairs without spurious hits.  
+  - Load PDBs, iterate nucleotide residues, compute N1(G)–N3(C) distances.  
 - **Optional scoring normalization**  
   - Offer a cosine-based distance norm for advanced filtering, with hand-tuned weight factors to downplay borderline cases.  
 - **Batch execution & output files**  
