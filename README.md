@@ -55,13 +55,13 @@ Use Biopython to parse PDB files and find G–C pairs by geometric criteria.
 
 ---
 
-## Notebook 5: RMSD & Torsion-Angle Comparison for RNA PDBs  
+## Notebook 5: RMSD, Superposition & Torsion-Angle Comparison for RNA PDBs  
 Align two RNA structures and quantify both spatial and angular deviations.  
 - **Coordinate extraction & manual atom selection**  
   - Extract phosphorus (P) atom coordinates from each PDB, inspect a few alignments by eye to confirm matching residue ordering.  
-- **RMSD calculation via Kabsch alignment**  
-  - Center and optimally rotate coordinate sets, compute root-mean-square deviation (Å), and validate on a small test pair.  
+- **Structural superposition & RMSD calculation**  
+  - Perform optimal superposition using the Kabsch algorithm to align P atom sets, compute root-mean-square deviation (Å), and validate results on test pairs.  
 - **Torsion-angle (MCQ) computation**  
   - Compute backbone β, γ and δ angles for each residue, calculate circular differences, and average them to yield the MCQ metric (degrees).  
 - **Validation & summary reporting**  
-  - Check that both structures have equal residue counts, print RMSD and MCQ, and annotate any outliers where manual residue mapping was corrected.
+  - Confirm equal residue counts, print out RMSD, superposition transformations and MCQ values.
